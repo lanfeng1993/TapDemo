@@ -1,0 +1,22 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height:100%;
+}
+.btn {
+  width:670rpx;
+  height:94rpx;
+  line-height:94rpx;
+  text-align:center;
+  background-color:#1AAE18;
+  color:#fff;
+  border: 2rpx solid hsla(0, 0, 2, 0.8);
+  border-radius:10rpx;
+}
+
+.split {
+  margin-top:30rpx;
+}

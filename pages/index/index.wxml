@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <view class = "split"></view>
+  <view class = "btn" bindtap="tap" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    单击
+  </view>
+
+
+  <view class = "split"></view>
+  <view class = "btn" bindtap="doubleTap" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    双击
+  </view>
+
+
+  <view class = "split"></view>
+  <view class = "btn" bindlongtap="longTap" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    长按
+  </view>
+
+
+  <view class = "split"></view>
+  <view class = "btn" bindtap="multipleTap" bindlongtap="longTap" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    单击／双击／长按
+  </view>
+
+</view>
